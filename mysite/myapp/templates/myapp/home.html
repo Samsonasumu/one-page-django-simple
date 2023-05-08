@@ -1,0 +1,130 @@
+{% load static %}
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sam portfolio</title>
+    <link href="{% static 'css/main.css' %}"  rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+ </head>
+ <body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+         <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>    
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body">
+                        <img  id="profile-pik" src="{% static 'images/samsum.jpg' %}" alt="profile">
+                        <h3>hello am sam</h3>
+                        <p>am a data scientist who is passionate about building stuffs</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">  
+                    <h4>My first developer job</h4> 
+                    <p>I started coding in 2020 after I had printed a hellow word in java  </p> 
+
+
+                    <p>In 2021  I started freelancing as a data analyst.After 
+                        completing my studies ,a Bachelor's  degree in Statistics, I started building websites</p> 
+
+                </div>
+            </div>
+            <br>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <div class="about-me">
+                        <h4>More about me</h4>
+    
+                        <p>I build new projects just to tickle my brain.</p>
+    
+                        <p>While I keep busy freelancing as a data analyst, I still take interviews in search of a great opportunities & projects that interest me.</p>
+    
+    
+                        <hr>
+    
+                        <h4>TOP EXPERTISE</h4>
+    
+                        <p>Fullstack developer with primary focus on Django and postresql:
+                             <a target="_blank" href="{% static '_mwolesam.pdf' %}">Download Resume</a></p>
+    
+                        <div id="skills">
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>R programming</li>
+                                <li>Docker</li>
+                                <li>Postgres</li>
+                            </ul>
+    
+                            <ul>
+                                <li>PowerBi</li>
+                                 <li>AWS (RDS/S3)</li>
+                                <li>Heroku</li>
+                                <li>HTML/CSS</li>
+                            </ul>
+    
+                        </div>
+    
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">  
+                    <h4>About me section</h4>  
+                    <p>am a seasoned data analyst who transitioned into software engineering</p>
+                    <hr>
+                    <h3>My projects </h3>
+                    <div>
+					<div class="post">
+						<img class="thumbnail" src="{% static 'images/online-book.jpeg' %}">
+						<div class="post-preview">
+							<h6 class="post-title">online book store</h6>
+							<p class="post-intro">Modulized guide for online courses with step by  step intructions</p>
+							<a href="#">Read More</a>
+						</div>
+					</div>
+                    <div>
+					<div class="post">
+						<img class="thumbnail" src="{% static 'images/sam-ecom.jpg' %}">
+						<div class="post-preview">
+							<h6 class="post-title">online ecommerce platform</h6>
+							<p class="post-intro">an online shopping centre with payment intergration</p>
+							<a href="#">Read More</a>
+						</div>
+					</div>
+                    <div >
+                        <p style="text-align: center;">
+                            <a href="#"><h4>View more</h4> </a>
+            
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            
+             
+            <br> 
+            <div class="social-links">
+					
+                 <h3>Find me on Github and linkedln </h3>
+
+                <a target="_blank" href="https://github.com/samsonasumu/">github link</a>
+                <br>
+                <a target="_blank" href="https://www.linkedin.com/in/samson-asumu-335687174">Linkln @samsonasumu</a>
+            </div>           
+        </div>
+    </div>
+ </body>
+ </html>
